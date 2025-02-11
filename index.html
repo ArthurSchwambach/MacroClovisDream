@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macro Extension</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Clovisdream</h1>
+
+  <form id="macroForm">
+    <label for="macroName">Nome da Macro:</label>
+    <input type="text" id="macroName" placeholder="Ex: Acerto" required>
+
+    <label for="macroFormula">Fórmula:</label>
+    <input type="text" id="macroFormula" placeholder="Ex: 1d20+5" required>
+
+    <button type="submit" class="add-button">Adicionar Macro</button>
+  </form>
+
+  <div id="macroButtons"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "id": "macro-extension",
+  "name": "Macro Extension",
+  "version": "1.0",
+  "author": "Seu Nome",
+  "description": "Uma extensão para criar e gerenciar macros de rolagem de dados.",
+  "actions": [
+    {
+      "id": "macro-action",
+      "name": "Macros",
+      "icon": "dice",
+      "popover": true
+    }
+  ]
+}
